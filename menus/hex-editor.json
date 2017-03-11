@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-workspace": [
+      {
+        "label": "Toggle hex-editor",
+        "command": "hex-editor:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "hex-editor",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "hex-editor:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

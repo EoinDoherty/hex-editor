@@ -2,11 +2,11 @@
   "context-menu": {
     "atom-workspace": [
       {
-        "label": "Toggle hex-editor",
-        "command": "hex-editor:toggle"
+        "label": "View hex dump",
+        "command": "hex-editor:encode"
       },
       {
-        "label": "Decode hex",
+        "label": "Decode hex dump",
         "command": "hex-editor:decode"
       }
     ]
@@ -19,8 +19,8 @@
           "label": "hex-editor",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "hex-editor:toggle"
+              "label": "Encode",
+              "command": "hex-editor:encode"
             },
             {
               "label": "Decode",

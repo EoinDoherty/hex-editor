@@ -15,7 +15,7 @@ describe('HexEditor', () => {
     activationPromise = atom.packages.activatePackage('hex-editor');
   });
 
-  describe('when the hex-editor:toggle event is triggered', () => {
+  describe('when the hex-editor:encode event is triggered', () => {
     it('hides and shows the modal panel', () => {
       // Before the activation event the view is not on the DOM, and no panel
       // has been created
@@ -23,7 +23,7 @@ describe('HexEditor', () => {
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'hex-editor:toggle');
+      atom.commands.dispatch(workspaceElement, 'hex-editor:encode');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -37,7 +37,7 @@ describe('HexEditor', () => {
 
         let hexEditorPanel = atom.workspace.panelForItem(hexEditorElement);
         expect(hexEditorPanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'hex-editor:toggle');
+        atom.commands.dispatch(workspaceElement, 'hex-editor:encode');
         expect(hexEditorPanel.isVisible()).toBe(false);
       });
     });
@@ -55,7 +55,7 @@ describe('HexEditor', () => {
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'hex-editor:toggle');
+      atom.commands.dispatch(workspaceElement, 'hex-editor:encode');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -65,7 +65,7 @@ describe('HexEditor', () => {
         // Now we can test for view visibility
         let hexEditorElement = workspaceElement.querySelector('.hex-editor');
         expect(hexEditorElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'hex-editor:toggle');
+        atom.commands.dispatch(workspaceElement, 'hex-editor:encode');
         expect(hexEditorElement).not.toBeVisible();
       });
     });

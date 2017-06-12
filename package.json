@@ -6,7 +6,8 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "hex-editor:toggle"
+    "atom-workspace": "hex-editor:toggle",
+    "atom-workspace": "hex-editor:decode"
   },
   "repository": "https://github.com/EoinDoherty/hex-editor",
   "license": "MIT",

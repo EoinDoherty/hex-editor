@@ -4,6 +4,10 @@
       {
         "label": "Toggle hex-editor",
         "command": "hex-editor:toggle"
+      },
+      {
+        "label": "Decode hex",
+        "command": "hex-editor:decode"
       }
     ]
   },
@@ -17,6 +21,10 @@
             {
               "label": "Toggle",
               "command": "hex-editor:toggle"
+            },
+            {
+              "label": "Decode",
+              "command": "hex-editor:decode"
             }
           ]
         }

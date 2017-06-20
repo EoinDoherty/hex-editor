@@ -1,3 +1,4 @@
 ## 0.1.0 - First Release
-* Every feature added
-* Every bug fixed
+* Added encode and decode commands
+ * Encode files and unsaved tabs
+ * Decode saved and unsaved hex dumps

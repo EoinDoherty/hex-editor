@@ -1,6 +1,6 @@
 {
   "context-menu": {
-    "atom-workspace": [
+    "atom-text-editor": [
       {
         "label": "View hex dump",
         "command": "hex-editor:encode"

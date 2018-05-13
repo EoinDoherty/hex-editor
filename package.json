@@ -2,7 +2,7 @@
   "name": "hex-editor",
   "main": "./lib/hex-editor",
   "version": "0.2.0",
-  "description": "View and edit hex dumps in atom.",
+  "description": "Convert files to and from hex",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": [

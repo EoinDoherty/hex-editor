@@ -1,5 +1,5 @@
 {
-  "name": "hex-editor",
+  "name": "hex-view",
   "main": "./lib/hex-editor",
   "version": "0.2.0",
   "description": "Convert files to and from hex",

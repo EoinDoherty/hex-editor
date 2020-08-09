@@ -6,8 +6,8 @@
   "keywords": [],
   "activationCommands": {
     "atom-workspace": [
-      "hex-editor:encode",
-      "hex-editor:decode"
+      "hex-view:encode",
+      "hex-view:decode"
     ]
   },
   "repository": "https://github.com/EoinDoherty/hex-editor",

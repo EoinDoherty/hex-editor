@@ -1,16 +1,4 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "View hex dump",
-        "command": "hex-editor:encode"
-      },
-      {
-        "label": "Decode hex dump",
-        "command": "hex-editor:decode"
-      }
-    ]
-  },
   "menu": [
     {
       "label": "Packages",
@@ -20,11 +8,11 @@
           "submenu": [
             {
               "label": "Encode",
-              "command": "hex-editor:encode"
+              "command": "hex-view:encode"
             },
             {
               "label": "Decode",
-              "command": "hex-editor:decode"
+              "command": "hex-view:decode"
             }
           ]
         }
